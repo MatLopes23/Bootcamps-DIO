@@ -1,7 +1,6 @@
-package com.github.matlopes23.citiesapi;
+package com.github.matlopes23.citiesapi.countries;
 
-import com.github.matlopes23.citiesapi.countries.Country;
-import com.github.matlopes23.citiesapi.repository.CountryRepository;
+import com.github.matlopes23.citiesapi.countries.repository.CountryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
