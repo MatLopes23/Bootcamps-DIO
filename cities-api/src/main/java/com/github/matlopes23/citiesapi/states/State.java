@@ -1,4 +1,4 @@
-package com.github.matlopes23.citiesapi.staties;
+package com.github.matlopes23.citiesapi.states;
 
 import com.github.matlopes23.citiesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;
@@ -9,7 +9,7 @@ import org.hibernate.annotations.TypeDefs;
 import javax.persistence.*;
 import java.util.List;
 
-@Entity(name = "Stade")
+@Entity(name = "State")
 @Table(name = "estado")
 @TypeDefs({
         @TypeDef(name = "jsonb", typeClass = JsonBinaryType.class)
